@@ -11,7 +11,7 @@ const CtaSection = () => (
         href={CTA_LINK}
         className="inline-block bg-primary text-primary-foreground px-10 py-4 rounded-lg font-bold text-base hover:opacity-90 transition-opacity"
       >
-        Agendar minha call gratuita agora →
+        Agendar Reunião Breve →
       </a>
       <p className="text-muted-foreground text-sm mt-4 max-w-[520px] mx-auto">
         Vou analisar o seu negócio e te dizer com honestidade se sou apto a gerar os resultados
