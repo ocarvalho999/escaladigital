@@ -82,6 +82,25 @@
     }
     </script>
 
+    <!-- Meta Pixel -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '595959445738342');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=595959445738342&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel -->
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -89,36 +108,36 @@
 
     <!-- DNS PREFETCH -->
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
-</head>
+  </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <!-- Instagram Button -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<style>
-  .instagram-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    color: white;
-    padding: 15px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .instagram-btn:hover {
-    transform: scale(1.1);
-  }
-</style>
-<a href="https://instagram.com/findimpulso" target="_blank" class="instagram-btn">
-  <i class="fab fa-instagram"></i> Siga-nos
-</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+      .instagram-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .instagram-btn:hover {
+        transform: scale(1.1);
+      }
+    </style>
+    <a href="https://instagram.com/findimpulso" target="_blank" class="instagram-btn">
+      <i class="fab fa-instagram"></i> Siga-nos
+    </a>
   </body>
 </html>
