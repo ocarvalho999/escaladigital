@@ -1,5 +1,3 @@
-declare global { interface Window { fbq?: (...args: unknown[]) => void } }
-
 const CTA_LINK = "https://wa.me/5531971151972?text=Olá,%20tenho%20interesse%20em%20uma%20call%20gratuita!";
 
 const CtaSection = () => (
@@ -13,7 +11,7 @@ const CtaSection = () => (
         href={CTA_LINK}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => window.fbq?.('track', 'Lead')}
+        onClick={() => { if (typeof (window as any).fbq === 'function') (window as any).fbq('track', 'Lead'); }}
         className="inline-block bg-primary text-primary-foreground px-10 py-4 rounded-lg font-bold text-base hover:opacity-90 transition-opacity"
       >
         Agendar Reunião Breve →
