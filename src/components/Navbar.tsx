@@ -1,6 +1,6 @@
 import logo from "@/assets/logo.jpg";
 
-const CTA_LINK = "https://wa.me/5531971151972?text=Olá,%20tenho%20interesse%20em%20uma%20call%20gratuita!";
+const CTA_LINK = "https://formularioanamnese.lovable.app";
 
 const Navbar = () => (
   <nav className="sticky top-0 z-50 bg-card border-b border-primary/15 px-4 sm:px-8 py-3 flex items-center justify-between">

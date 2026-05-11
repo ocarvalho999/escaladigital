@@ -1,4 +1,4 @@
-const CTA_LINK = "https://wa.me/5531971151972?text=Olá,%20tenho%20interesse%20em%20uma%20call%20gratuita!";
+const CTA_LINK = "https://formularioanamnese.lovable.app";
 
 const CtaSection = () => (
   <section id="agendar" className="bg-card border-t border-primary/15 py-16 px-4 text-center">
