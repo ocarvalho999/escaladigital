@@ -1,7 +1,7 @@
 const stats = [
   { num: "+600", label: "Conversas no WhatsApp" },
-  { num: "R$25k+", label: "Faturamento em menos de 60 dias" },
-  { num: "R$25k+", label: "Com 1 único anúncio" },
+  { num: "R$50k+", label: "Faturamento em menos de 60 dias" },
+  { num: "R$50k+", label: "Com 1 único anúncio" },
 ];
 
 const StatsSection = () => (

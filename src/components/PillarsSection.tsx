@@ -69,7 +69,7 @@ const PillarsSection = () => (
             {" "}6 meses depois, colhi um resultado muito acima do esperado! E como um bom marketeiro,
             fiz um anúncio usando minha própria imagem para anunciar para ela. Esse anúncio sozinho
             gerou mais de{" "}
-            <span className="text-primary font-bold underline">R$25 mil em faturamento</span>.
+            <span className="text-primary font-bold underline">R$50 mil em faturamento</span>.
           </p>
         </div>
       </div>
@@ -100,8 +100,8 @@ const PillarsSection = () => (
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
         {[
           { num: "+600", label: "Conversas no WhatsApp" },
-          { num: "R$25k+", label: "Faturamento em menos de 60 dias" },
-          { num: "R$25k+", label: "Com 1 único anúncio" },
+          { num: "R$50k+", label: "Faturamento em menos de 60 dias" },
+          { num: "R$50k+", label: "Com 1 único anúncio" },
         ].map((s) => (
           <div
             key={s.label}

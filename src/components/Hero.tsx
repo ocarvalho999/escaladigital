@@ -8,7 +8,7 @@ const Hero = () => (
       </span>
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-tight max-w-[820px] mx-auto mb-6">
         Como uma clínica de estética saiu do prejuízo e gerou mais de{" "}
-        <span className="text-primary">R$ 60 MIL</span> em faturamento em menos de 90 dias
+        <span className="text-primary">R$ 140 MIL</span> em faturamento em menos de 90 dias
         — usando um processo simples que quase ninguém aplica...
       </h1>
       <p className="text-muted-foreground text-base max-w-[600px] mx-auto mb-8">
