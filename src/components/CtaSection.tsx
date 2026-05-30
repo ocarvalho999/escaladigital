@@ -11,7 +11,7 @@ const CtaSection = () => (
         href={CTA_LINK}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => { if (typeof (window as any).fbq === 'function') (window as any).fbq('track', 'Lead'); }}
+        onClick={() => { if (typeof (window as any).fbq === 'function') (window as any).fbq('track', 'InitiateCheckout'); }}
         className="inline-block bg-primary text-primary-foreground px-10 py-4 rounded-lg font-bold text-base hover:opacity-90 transition-opacity"
       >
         Agendar Reunião Breve →
